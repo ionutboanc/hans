@@ -1,0 +1,57 @@
+# ── Secrets ─────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+token*.json
+client_secret*.json
+service-account*.json
+
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ── Node / Next.js ──────────────────────────────────
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vercel
+
+# ── Data & local services ───────────────────────────
+*.sqlite
+*.db
+data/
+volumes/
+
+# ── Logs ────────────────────────────────────────────
+logs/
+*.log
+
+# ── Editors & OS ────────────────────────────────────
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Claude Code local settings ──────────────────────
+.claude/settings.local.json
