@@ -22,7 +22,7 @@ H.A.N.S. is a personal AI assistant, inspired by the vision of Jarvis. Rather th
 
 ```
   Triggers  ──►  Event bus  ──►  Triage  ──►  Agent  ──►  Channels
-  (email,         (queue)        (is this     (Hans)      (web, chat
+  (email,         (queue)        (is this                 (web, chat
    calendar,                      important?)              apps, push)
    schedules,                                    ▲
    heartbeat)                                    │
